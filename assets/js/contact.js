@@ -52,19 +52,20 @@ else {
     document.getElementById("demo3").innerHTML = "";
   }
 
-  // if (message == "" || message == null) {
-  //   debugger;
-  //   alert(message)
-  //   document.getElementById("demo2").innerHTML = "Please enter a message";
+  if (message == "" || message == null) {
+    debugger;
+    alert(message)
+    document.getElementById("demo2").innerHTML = "Please enter a message";
   
-  // }
-  // else {
+  }
+  else {
    
-  //   document.getElementById("demo2").innerHTML = "";
+    document.getElementById("demo2").innerHTML = "";
 
     
-  //   alert(message)
-  // }
+    alert(message)
+  }
+  // c
 
   Email.send({
     Host : "smtp.elasticemail.com",
@@ -73,7 +74,8 @@ else {
     To : 'admin@itsnsandeep.com',
     From : "itsnsandeep123@gmail.com",
     Subject : subject,
-    Body : message 
+    Body :"Name:"+ fname +"<br/> For email:" + x +"<br/> Subject:" + subject +"<br/> Message:"
+    + message 
 }).then(
   message => alert(message)
 );
@@ -109,27 +111,98 @@ else {
 
 
 
-// event.preventDefault();
-// debugger;
-// $.ajax({
-//   type:'POST',
-//   url:'/',
-//   data:{
-//     name:$("#name").val(),
-//     email:$("#email").val(),
-//     message:$("#message").val(),
-//     csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val()
-//   },
-//   success: function(data) {
+// // event.preventDefault();
+// // debugger;
+// // $.ajax({
+// //   type:'POST',
+// //   url:'/',
+// //   data:{
+// //     name:$("#name").val(),
+// //     email:$("#email").val(),
+// //     message:$("#message").val(),
+// //     csrfmiddlewaretoken:$('input[name=csrfmiddlewaretoken]').val()
+// //   },
+// //   success: function(data) {
 
-//     swal("success", "Your Message was sending successfully ", "success");
+// //     swal("success", "Your Message was sending successfully ", "success");
   
-//   },
-//   error: function(xhr, status, error) {
-//     swal("error!", "Please Try Agian", "error");
+// //   },
+// //   error: function(xhr, status, error) {
+// //     swal("error!", "Please Try Agian", "error");
   
-//   },
-//   dataType: 'text'
-// })
-// inputs.forEach(input => input.value = '');
-// // textariea.value =''
+// //   },
+// //   dataType: 'text'
+// // })
+// // inputs.forEach(input => input.value = '');
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function hello(){
+//     // event.preventdefult();
+//     debugger
+//     let fname = document.querySelector('#name').value;
+//     let email = document.querySelector('#email').value;
+//     let subject = document.querySelector('#subject').value;
+//     let message = document.querySelector('#message').value;
+    
+//     // let mes = "Name:" + fname + "<br/> For email:" +  email + "<br/> Subject:" + subject + "<br/> Message:" + message 
+     
+//     Email.send({
+//         Host : "smtp.elasticemail.com",
+//         Username : "itsnsandeep123@gmail.com",
+//         Password : "4E28AA336E9DD7F0409536F7ED9D28631FEE",
+//         To : 'priya4241honey@gmail.com',
+//         From : "itsnsandeep123@gmail.com",
+//         Subject : subject,
+//         Body : "Name:"+ fname +"<br/> For email:" + email +"<br/> Subject:" + subject +"<br/> Message:"
+//         + message 
+//     }).then(
+//       alert("sucessfully sending email!")
+//     );
+    
+// }
+  
+// // // textariea.value =''
+
+
+
+
+// function hello(){
+//     // event.preventdefult();
+//     let fname = document.querySelector('#name').value;
+//     let x = document.querySelector('#email').value;
+    
+//     let subject = document.querySelector('#subject').value;
+//     let message = document.querySelector('#message').value;
+
+ 
+     
+//       // let subject = document.getElementById("subject").value;
+//       // let message = document.getElementById("message").value;
+       
+     
+//     Email.send({
+//         Host : "smtp.elasticemail.com",
+//         Username : "itsnsandeep123@gmail.com",
+//         Password : "4E28AA336E9DD7F0409536F7ED9D28631FEE",
+//         To : 'priya4241honey@gmail.com',
+//         From : "itsnsandeep123@gmail.com",
+//         Subject : "subject",
+//         Body : "Name:"+ fname +"<br/> For email:" + x +"<br/> Subject:" + subject +"<br/> Message:"
+//         //         + message
+//     }).then(
+//       message => alert(message)
+//     );
+    
+// }
+  
