@@ -2181,7 +2181,7 @@ span.error {
 }
 .card-header {
   background-color: #38434f;
-  height: 20px;
+  /* height: 20px; */
 }
 .btn-profile {
 margin-left: -35px;
