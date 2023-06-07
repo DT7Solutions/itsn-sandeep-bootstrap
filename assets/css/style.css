@@ -1341,6 +1341,7 @@ figure.dotted-bg:before {
 
 .feature-v1 {
   line-height: 28px;
+  min-height:530px!important
 }
 
 @media (max-width: 767.98px) {
