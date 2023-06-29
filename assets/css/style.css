@@ -2216,3 +2216,14 @@ margin-left: -35px;
   background-color: #fff;
   border: 2px solid #dee2e6;
 }
+
+
+@media (max-width: 420px) {
+  .men-list{
+    margin-left: -10%;
+  }
+  .men-list li{
+    text-align: left !important;
+  }
+  
+}
