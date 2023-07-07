@@ -2225,5 +2225,7 @@ margin-left: -35px;
   .men-list li{
     text-align: left !important;
   }
-  
+  .column2{
+    margin-top: -85px !important;
+  }
 }
