@@ -782,8 +782,8 @@ a, a:hover {
 }
 
 .cover-v1 .container, .cover-v1 .container > .row {
-  height: 50vh;
-  min-height: 650px;
+  height: 100vh;
+  min-height: 850px;
 }
 
 .cover-v1 .heading {
