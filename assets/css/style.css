@@ -788,8 +788,8 @@ a, a:hover {
 
 @media (max-width: 872px) {
   .cover-v1 .container, .cover-v1 .container > .row {
-    height: 40vh;
-    min-height: 350px!important;
+    height: 35vh;
+    min-height: 320px!important;
   }
   .cover-v1 {
     background-size: 100%;
@@ -798,7 +798,7 @@ a, a:hover {
     width: 100%;
   }
   .logo-white{
-    width:180px!important;
+    width:150px!important;
   }
 }
 .logo-white{
