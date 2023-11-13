@@ -786,6 +786,24 @@ a, a:hover {
   min-height: 750px;
 }
 
+@media (max-width: 872px) {
+  .cover-v1 .container, .cover-v1 .container > .row {
+    height: 40vh;
+    min-height: 350px!important;
+  }
+  .cover-v1 {
+    background-size: 100%;
+    background-position: center center;
+    background-repeat:repeat;
+    width: 100%;
+  }
+  .logo-white{
+    width:180px!important;
+  }
+}
+.logo-white{
+  width:300px;
+}
 .cover-v1 .heading {
   font-size: 4rem;
   font-weight: 900;
