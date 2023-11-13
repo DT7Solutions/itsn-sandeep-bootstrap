@@ -822,7 +822,7 @@ a, a:hover {
     font-size: 3rem;
   }
 }
-@media (min-width: 440px) and (max-width:886px) {
+@media (min-width: 470px) and (max-width:886px) {
   .cover-v1 .container, .cover-v1 .container > .row {
     height: 35vh;
     min-height: 300px!important;
